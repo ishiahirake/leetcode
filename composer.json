@@ -1,0 +1,15 @@
+{
+  "name": "ishiahirake/leetcode",
+  "license": "MIT",
+  "description": "Leetcode solutions.",
+  "authors": [
+    {
+      "name": "ishiahirake",
+      "email": "ishiahirake@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "Ishiahirake\\Leetcode\\": "src/"
+  }
+}
