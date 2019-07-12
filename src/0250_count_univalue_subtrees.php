@@ -62,6 +62,7 @@ class Solution
             return true;
         }
 
+        // If the subtree is not unival, then the root also not.
         $isLeftUnival  = $this->isUnivalSubtreeCount($root->left);
         $isRightUnival = $this->isUnivalSubtreeCount($root->right);
 
@@ -69,6 +70,8 @@ class Solution
             return false;
         }
 
+        // Then we check root and left and right node's val all be the same or not.
+        // For null node we just it's val to root's val for simplify.
         $leftVal  = $root->left ? $root->left->val : $root->val;
         $rightVal = $root->right ? $root->right->val : $root->val;
 
