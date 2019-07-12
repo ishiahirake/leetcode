@@ -6,6 +6,7 @@
  * Using iterative approach.
  *
  * @see https://leetcode.com/problems/symmetric-tree/
+ * @see https://leetcode.com/explore/learn/card/data-structure-tree/17/solve-problems-recursively/536/
  */
 class Solution
 {
