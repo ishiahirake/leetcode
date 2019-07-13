@@ -19,6 +19,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0144. Binary Tree Preorder Traversal (Iteratively)**: [[PHP]](./src/0144_binary_tree_preorder_traversal_iteratively.php)
 - **0145. Binary Tree Postorder Traversal (Recursively)**: [[PHP]](./src/0145_binary_tree_postorder_traversal_recursively.php)
 - **0145. Binary Tree Postorder Traversal (Iteratively)**: [[PHP]](./src/0145_binary_tree_postorder_traversal_iteratively.php)
+- **0236. Lowest Common Ancestor of a Binary Tree**: [[JS]](./js/src/0236_lowest_common_ancestor_of_a_binary_tree_a1.js)
 - **0250. Count Univalue Subtrees :star:** [[PHP]](./src/0250_count_univalue_subtrees.php)
 
 ## Info
