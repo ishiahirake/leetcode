@@ -5,7 +5,7 @@ Solutions for [leetcode](https://leetcode.com/).
 ## Solutions
 
 - **0094. Binary Tree Inorder Traversal**: [[PHP (recursively)]](./php/src/0094_binary_tree_inorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0094_binary_tree_inorder_traversal_iteratively.php)
-- **0101. Symmetric Tree**: [[PHP (iteratively)]](./php/src/0101_symmetric_tree_iteratively.php) [[PHP (recursively)]](./php/src/0101_symmetric_tree_recursively.php)
+- **0101. Symmetric Tree**: [[PHP (recursively)]](./php/src/0101_symmetric_tree_recursively.php) [[PHP (iteratively)]](./php/src/0101_symmetric_tree_iteratively.php)
 - **0102. Binary Tree Level Order Traversal**: [[PHP]](./php/src/0102_binary_tree_level_order_traversal.php)
 - **0104. Maximum Depth of Binary Tree**: [[PHP]](./php/src/0104_maximum_depth_of_binary_tree.php)
 - **0105. Construct Binary Tree from Preorder and Inorder Traversal**: [[PHP]](./php/src/0105_construct_binary_tree_from_preorder_and_inorder_traversal.php)
