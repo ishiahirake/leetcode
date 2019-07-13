@@ -9,6 +9,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0101. Symmetric Tree**: [[PHP (iteratively)]](./src/0101_symmetric_tree_iteratively.php) [[PHP (recursively)]](./src/0101_symmetric_tree_recursively.php)
 - **0102. Binary Tree Level Order Traversal**: [[PHP]](./src/0102_binary_tree_level_order_traversal.php)
 - **0104. Maximum Depth of Binary Tree**: [[PHP]](./src/0104_maximum_depth_of_binary_tree.php)
+- **0105. Construct Binary Tree from Preorder and Inorder Traversal**: [[PHP]](./src/0105_construct_binary_tree_from_preorder_and_inorder_traversal.php)
 - **0106. Construct Binary Tree from Inorder and Postorder Traversal**: [[PHP]](./src/0106_construct_binary_tree_from_inorder_and_postorder_traversal.php)
 - **0107. Binary Tree Level Order Traversal II**: [[PHP]](./src/0107_binary_tree_level_order_traversal_II.php)
 - **0112. Path Sum**: [[PHP]](./src/0112_path_sum.php)
