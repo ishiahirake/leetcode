@@ -16,11 +16,8 @@
  */
 class Solution
 {
-    const INT_MIN = -(2 ** 31);
-    const INT_MAX = 2 ** 31 - 1;
-
-    const INT_MAX_STR = '2147483647';
-    const INT_MIN_STR = '2147483648';
+    const INT_MIN = -2147483648;
+    const INT_MAX = 2147483647;
 
     /**
      * @param string $str
@@ -29,34 +26,48 @@ class Solution
      */
     function myAtoi($str)
     {
-        list($digits, $isNegative) = $this->extract($str);
+        return $this->toi($this->extract($str));
+    }
 
-        return $this->toi(join('', $digits), $isNegative);
+    /**
+     * @param string $digit
+     *
+     * @return int
+     */
+    protected function toi(string $digit): int
+    {
+        $floatDigit = (float) $digit;
+
+        if ($floatDigit < self::INT_MIN) {
+            return self::INT_MIN;
+        }
+
+        if ($floatDigit > self::INT_MAX) {
+            return self::INT_MAX;
+        }
+
+        return (int) $digit;
     }
 
     /**
      * @param string $str
      *
-     * @return array
+     * @return string
      */
-    protected function extract(string $str): array
+    protected function extract(string $str): string
     {
         $str = trim($str, ' ');
 
-        $isNegative = false;
-        $digits     = [];
+        $digits = [];
 
-        // Firstly, discard +/- sign and set corresponding flag
-        if (($str[0] ?? null) === '+') {
-            $str = substr($str, 1);
-        }
-        else if (($str[0] ?? null) === '-') {
-            $str        = substr($str, 1);
-            $isNegative = true;
+        // Firstly, extract +/- sign if it exists
+        if (in_array($sign = ($str[0] ?? null), ['-', '+'])) {
+            $digits[] = $sign;
+            $str      = substr($str, 1);
         }
 
         if (empty($str)) {
-            return [$digits, $isNegative];
+            return '0';
         }
 
         // Remove leading 0
@@ -68,34 +79,6 @@ class Solution
             $digits[] = $char;
         }
 
-        return [$digits, $isNegative];
-    }
-
-    /**
-     * @param string $digits
-     * @param bool   $isNegative
-     *
-     * @return int
-     */
-    protected function toi(string $digits, bool $isNegative): int
-    {
-        if (empty($digits)) {
-            return 0;
-        }
-
-        $intMaxLen = strlen(self::INT_MIN_STR);
-        $digit     = str_pad($digits, $intMaxLen, '0', STR_PAD_LEFT);
-        if (strlen($digit) > $intMaxLen) {
-            return $isNegative ? self::INT_MIN : self::INT_MAX;
-        }
-
-        $toCompare = $isNegative ? self::INT_MIN_STR : self::INT_MAX_STR;
-        if (strcmp($digit, $toCompare) > 0) {
-            return $isNegative ? self::INT_MIN : self::INT_MAX;
-        }
-
-        $value = (int) $digit;
-
-        return $isNegative ? -1 * $value : $value;
+        return join('', $digits);
     }
 }
