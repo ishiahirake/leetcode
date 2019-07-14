@@ -29,7 +29,7 @@ class Solution
      */
     function myAtoi($str)
     {
-        list($digits, $isNegative) = $this->extract(trim($str, ' '));
+        list($digits, $isNegative) = $this->extract($str);
 
         return $this->toi(join('', $digits), $isNegative);
     }
@@ -41,6 +41,8 @@ class Solution
      */
     protected function extract(string $str): array
     {
+        $str = trim($str, ' ');
+
         $isNegative = false;
         $digits     = [];
 
