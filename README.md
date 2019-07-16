@@ -5,6 +5,7 @@ Solutions for [leetcode](https://leetcode.com/).
 ## Solutions
 
 - **0008. String to Integer (atoi)**: [[PHP]](./php/src/0008_string_to_integer_(atoi).php)
+- **0013. Roman to Integer**: [[PHP]](./php/src/0013_roman_to_integer.php)
 - **0094. Binary Tree Inorder Traversal**: [[PHP (recursively)]](./php/src/0094_binary_tree_inorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0094_binary_tree_inorder_traversal_iteratively.php)
 - **0098. Validate Binary Search Tree**: [[PHP]](./php/src/0098_validate_binary_search_tree.php)
 - **0101. Symmetric Tree**: [[PHP (recursively)]](./php/src/0101_symmetric_tree_recursively.php) [[PHP (iteratively)]](./php/src/0101_symmetric_tree_iteratively.php)
