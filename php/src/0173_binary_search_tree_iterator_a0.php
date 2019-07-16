@@ -9,19 +9,9 @@
 class BSTIterator
 {
     /**
-     * @var TreeNode
-     */
-    protected $root = null;
-
-    /**
      * @var Generator
      */
-    protected $inorderNext;
-
-    /**
-     * @var TreeNode[]
-     */
-    protected $nodes = [];
+    protected $inorder;
 
     /**
      * BSTIterator constructor.
@@ -30,9 +20,7 @@ class BSTIterator
      */
     public function __construct(?TreeNode $root)
     {
-        $this->root = $root;
-
-        $this->inorderNext = $this->getInorderNext($root);
+        $this->inorder = $this->getInorder($root);
     }
 
     /**
@@ -40,7 +28,7 @@ class BSTIterator
      *
      * @return Generator
      */
-    function getInorderNext($root): Generator
+    function getInorder($root): Generator
     {
         if (!$root) {
             return;
@@ -74,11 +62,12 @@ class BSTIterator
      */
     function next()
     {
-        if (!$this->hasNext()) {
-            return null;
-        }
+        /** @var TreeNode $node */
+        $node = $this->inorder->current();
 
-        return array_shift($this->nodes)->val;
+        $this->inorder->next();
+
+        return $node->val;
     }
 
     /**
@@ -86,17 +75,6 @@ class BSTIterator
      */
     function hasNext()
     {
-        if (!empty($this->nodes)) {
-            return true;
-        }
-
-        if (!$this->inorderNext->valid()) {
-            return false;
-        }
-
-        $this->nodes[] = $this->inorderNext->current();
-        $this->inorderNext->next();
-
-        return true;
+        return $this->inorder->valid();
     }
 }
