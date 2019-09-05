@@ -6,7 +6,7 @@ Solutions for [leetcode](https://leetcode.com/).
 
 - **0008. String to Integer (atoi)**: [[PHP]](./php/src/0008_string_to_integer_(atoi).php)
 - **0013. Roman to Integer**: [[PHP]](./php/src/0013_roman_to_integer.php)
-- **0024. Swap Nodes in Pairs: [[PHP]](./php/src/0024_swap_nodes_in_pairs.php)
+- **0024. Swap Nodes in Pairs**: [[PHP]](./php/src/0024_swap_nodes_in_pairs.php)
 - **0094. Binary Tree Inorder Traversal**: [[PHP (recursively)]](./php/src/0094_binary_tree_inorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0094_binary_tree_inorder_traversal_iteratively.php)
 - **0098. Validate Binary Search Tree**: [[PHP]](./php/src/0098_validate_binary_search_tree.php)
 - **0101. Symmetric Tree**: [[PHP (recursively)]](./php/src/0101_symmetric_tree_recursively.php) [[PHP (iteratively)]](./php/src/0101_symmetric_tree_iteratively.php)
@@ -18,6 +18,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0112. Path Sum**: [[PHP]](./php/src/0112_path_sum.php)
 - **0116. Populating Next Right Pointers in Each Node**: [[PHP]](./php/src/0116_populating_next_right_pointers_in_each_node_a1.php)
 - **0117. Populating Next Right Pointers in Each Node II**: [[PHP]](./php/src/0117_populating_next_right_pointers_in_each_node_ii.php)
+- **0141. Linked List Cycle:** [[PHP]](./php/src/0141_linked_list_cycle.php)
 - **0144. Binary Tree Preorder Traversal**: [[PHP (recursively)]](./php/src/0144_binary_tree_preorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0144_binary_tree_preorder_traversal_iteratively.php)
 - **0145. Binary Tree Postorder Traversal**: [[PHP (recursively)]](./php/src/0145_binary_tree_postorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0145_binary_tree_postorder_traversal_iteratively.php)
 - **0173. Binary Search Tree Iterator**: [[JS]](./js/src/0173_binary_search_tree_iterator.js)
