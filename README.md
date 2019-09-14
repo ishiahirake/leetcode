@@ -6,6 +6,7 @@ Solutions for [leetcode](https://leetcode.com/).
 
 - **0008. String to Integer (atoi)**: [[PHP]](./php/src/0008_string_to_integer_(atoi).php)
 - **0013. Roman to Integer**: [[PHP]](./php/src/0013_roman_to_integer.php)
+- **0020. Valid Parentheses**: [[Python]](./python/solutions/s0020_valid_parentheses.py)
 - **0021. Merge Two Sorted Lists**: [[PHP]](./php/src/0021_merge_two_sorted_lists.php)
 - **0023. Merge k Sorted Lists**: [[PHP]](./php/src/0023_merge_k_sorted_lists.php)
 - **0024. Swap Nodes in Pairs**: [[PHP]](./php/src/0024_swap_nodes_in_pairs.php)
