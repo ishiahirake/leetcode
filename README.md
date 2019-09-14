@@ -10,6 +10,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0023. Merge k Sorted Lists**: [[PHP]](./php/src/0023_merge_k_sorted_lists.php)
 - **0024. Swap Nodes in Pairs**: [[PHP]](./php/src/0024_swap_nodes_in_pairs.php)
 - **0025. Reverse Nodes in k-Group**: [[PHP]](./php/src/0025_reverse_nodes_in_k_group.php) 
+- **0088. Merge Sorted Array**: [[Python]](./python/solutions/s0088_merge_sorted_array.py)
 - **0094. Binary Tree Inorder Traversal**: [[PHP (recursively)]](./php/src/0094_binary_tree_inorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0094_binary_tree_inorder_traversal_iteratively.php)
 - **0098. Validate Binary Search Tree**: [[PHP]](./php/src/0098_validate_binary_search_tree.php)
 - **0101. Symmetric Tree**: [[PHP (recursively)]](./php/src/0101_symmetric_tree_recursively.php) [[PHP (iteratively)]](./php/src/0101_symmetric_tree_iteratively.php)
@@ -34,7 +35,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0700. Search in a Binary Search Tree**: [[PHP]](./php/src/0700_search_in_a_binary_search_tree.php)
 - **0701. Insert into a Binary Search Tree**: [[PHP]](./php/src/0701_insert_into_a_binary_search_tree.php)
 - **0704. Binary Search**: [[PHP]](./php/src/0704_binary_search.php)
-- **0912. Sort an Array**: [[PHP]](./php/src/0912_sort_an_array.php) [[Python]](./python/solutions/0912_sort_an_array.py)
+- **0912. Sort an Array**: [[PHP]](./php/src/0912_sort_an_array.php) [[Python]](./python/solutions/s0912_sort_an_array.py)
 
 ## Info
 
