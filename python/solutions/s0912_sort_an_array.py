@@ -1,3 +1,5 @@
+import random
+
 
 class Solution(object):
 
@@ -12,9 +14,14 @@ class Solution(object):
         if len(nums) < 2:
             return nums
 
-        pivot = nums[0]
+        left, mid, right = [], [], []
+        pivot = random.choice(nums)
+        for num in nums:
+            if num < pivot:
+                left.append(num)
+            elif num == pivot:
+                mid.append(num)
+            else:
+                right.append(num)
 
-        le = [num for num in nums[1:] if num <= pivot]
-        gt = [num for num in nums[1:] if num > pivot]
-
-        return self.quick_sort(le) + [pivot] + self.quick_sort(gt)
+        return self.quick_sort(left) + mid + self.quick_sort(right)
