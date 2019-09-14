@@ -33,6 +33,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0297. Serialize and Deserialize Binary Tree**: [[PHP]](./php/src/0297_serialize_and_deserialize_binary_tree.php)
 - **0700. Search in a Binary Search Tree**: [[PHP]](./php/src/0700_search_in_a_binary_search_tree.php)
 - **0701. Insert into a Binary Search Tree**: [[PHP]](./php/src/0701_insert_into_a_binary_search_tree.php)
+- **0704. Binary Search**: [[PHP]](./php/src/0704_binary_search.php)
 
 ## Info
 
