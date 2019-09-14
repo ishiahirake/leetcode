@@ -34,6 +34,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0700. Search in a Binary Search Tree**: [[PHP]](./php/src/0700_search_in_a_binary_search_tree.php)
 - **0701. Insert into a Binary Search Tree**: [[PHP]](./php/src/0701_insert_into_a_binary_search_tree.php)
 - **0704. Binary Search**: [[PHP]](./php/src/0704_binary_search.php)
+- **0912. Sort an Array**: [[PHP]](./php/src/0912_sort_an_array.php)
 
 ## Info
 
