@@ -10,6 +10,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0023. Merge k Sorted Lists**: [[PHP]](./php/src/0023_merge_k_sorted_lists.php)
 - **0024. Swap Nodes in Pairs**: [[PHP]](./php/src/0024_swap_nodes_in_pairs.php)
 - **0025. Reverse Nodes in k-Group**: [[PHP]](./php/src/0025_reverse_nodes_in_k_group.php) 
+- **0053. Maximum Subarray**: [[Python]](./python/solutions/s0053_maximum_subarray.py)
 - **0088. Merge Sorted Array**: [[Python]](./python/solutions/s0088_merge_sorted_array.py)
 - **0094. Binary Tree Inorder Traversal**: [[PHP (recursively)]](./php/src/0094_binary_tree_inorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0094_binary_tree_inorder_traversal_iteratively.php)
 - **0098. Validate Binary Search Tree**: [[PHP]](./php/src/0098_validate_binary_search_tree.php)
