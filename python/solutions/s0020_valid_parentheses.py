@@ -14,13 +14,10 @@ class Solution:
     """
 
     def isValid(self, s: str) -> bool:
-        stack = list()
+        stack = []
         for c in s:
             if c in brackets.values():
                 stack.append(c)
-            elif not stack:
+            elif not stack or brackets[c] != stack.pop():
                 return False
-            else:
-                if brackets[c] != stack.pop():
-                    return False
         return not stack
