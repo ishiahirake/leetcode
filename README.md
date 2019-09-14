@@ -38,6 +38,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0701. Insert into a Binary Search Tree**: [[PHP]](./php/src/0701_insert_into_a_binary_search_tree.php)
 - **0704. Binary Search**: [[PHP]](./php/src/0704_binary_search.php)
 - **0912. Sort an Array**: [[PHP]](./php/src/0912_sort_an_array.php) [[Python]](./python/solutions/s0912_sort_an_array.py)
+- **0932. Beautiful Array**: [[Python]](./python/solutions/s0932_beautiful_array.py)
 
 ## Info
 
