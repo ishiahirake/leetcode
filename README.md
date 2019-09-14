@@ -27,6 +27,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0142. Linked List Cycle II**: [[JS]](./js/src/0142_linked_list_cycle_II.js)
 - **0144. Binary Tree Preorder Traversal**: [[PHP (recursively)]](./php/src/0144_binary_tree_preorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0144_binary_tree_preorder_traversal_iteratively.php)
 - **0145. Binary Tree Postorder Traversal**: [[PHP (recursively)]](./php/src/0145_binary_tree_postorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0145_binary_tree_postorder_traversal_iteratively.php)
+- **0169. Majority Element**: [[Python]](./python/solutions/s0169_majority_element.py)
 - **0173. Binary Search Tree Iterator**: [[JS]](./js/src/0173_binary_search_tree_iterator.js)
 - **0206. Reverse Linked List**: [[PHP (iteratively)]](./php/src/0206_reverse_linked_list_iteratively.php)
 - **0236. Lowest Common Ancestor of a Binary Tree**: [[JS]](./js/src/0236_lowest_common_ancestor_of_a_binary_tree_a1.js)
