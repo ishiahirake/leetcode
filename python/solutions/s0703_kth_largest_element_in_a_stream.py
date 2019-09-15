@@ -6,8 +6,10 @@ class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):
         self.k = k
-        self.pq = sorted(nums, reverse=True)[:k]
-        heapq.heapify(self.pq)
+        self.pq = []
+
+        for num in nums:
+            self.add(num)
 
     def add(self, val: int) -> int:
         if len(self.pq) >= self.k:
