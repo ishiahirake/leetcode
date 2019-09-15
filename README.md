@@ -39,7 +39,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0297. Serialize and Deserialize Binary Tree**: [[PHP]](./php/src/0297_serialize_and_deserialize_binary_tree.php)
 - **0700. Search in a Binary Search Tree**: [[PHP]](./php/src/0700_search_in_a_binary_search_tree.php)
 - **0701. Insert into a Binary Search Tree**: [[PHP]](./php/src/0701_insert_into_a_binary_search_tree.php)
-- **0703. Kth Largest Element in a Stream**: [[Python]](./python/solutions/s0703_kth_largest_element_in_a_stream.py)
+- **0703. Kth Largest Element in a Stream**: [[Python]](./python/solutions/s0703_kth_largest_element_in_a_stream.py) [[PHP]](./php/src/0703_kth_largest_element_in_a_stream.php)
 - **0704. Binary Search**: [[PHP]](./php/src/0704_binary_search.php)
 - **0912. Sort an Array**: [[PHP]](./php/src/0912_sort_an_array.php) [[Python]](./python/solutions/s0912_sort_an_array.py)
 - **0932. Beautiful Array**: [[Python]](./python/solutions/s0932_beautiful_array.py)
