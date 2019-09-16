@@ -36,6 +36,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0232. Implement Queue using Stacks**: [[Python]](./python/solutions/s0232_implement_queue_using_stacks.py)
 - **0236. Lowest Common Ancestor of a Binary Tree**: [[JS]](./js/src/0236_lowest_common_ancestor_of_a_binary_tree_a1.js)
 - **0239. Sliding Window Maximum**: [[Python]](./python/solutions/s0239_sliding_window_maximum.py) [[PHP]](./php/src/0239_sliding_window_maximum.php) [[PHP Heap]](./php/src/0239_sliding_window_maximum_heap.php)
+- **0242. Valid Anagram**: [[Python]](./python/solutions/s0242_valid_anagram.py)
 - **0250. Count Univalue Subtrees :star:** [[PHP]](./php/src/0250_count_univalue_subtrees.php)
 - **0264. Ugly Number II**: [[Python]](./python/solutions/s0264_ugly_number_II.py)
 - **0285. Inorder Successor in BST**: [[JS]](./js/src/0285_inorder_successor_in_BST.js)
