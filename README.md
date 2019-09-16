@@ -17,7 +17,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0053. Maximum Subarray**: [[Python]](./python/solutions/s0053_maximum_subarray.py)
 - **0088. Merge Sorted Array**: [[Python]](./python/solutions/s0088_merge_sorted_array.py)
 - **0094. Binary Tree Inorder Traversal**: [[PHP (recursively)]](./php/src/0094_binary_tree_inorder_traversal_recursively.php) [[PHP (iteratively)]](./php/src/0094_binary_tree_inorder_traversal_iteratively.php)
-- **0098. Validate Binary Search Tree**: [[PHP]](./php/src/0098_validate_binary_search_tree.php)
+- **0098. Validate Binary Search Tree**: [[PHP]](./php/src/0098_validate_binary_search_tree.php) [[Python]](./python/solutions/s0098_validate_binary_search_tree.py)
 - **0101. Symmetric Tree**: [[PHP (recursively)]](./php/src/0101_symmetric_tree_recursively.php) [[PHP (iteratively)]](./php/src/0101_symmetric_tree_iteratively.php)
 - **0102. Binary Tree Level Order Traversal**: [[PHP]](./php/src/0102_binary_tree_level_order_traversal.php)
 - **0104. Maximum Depth of Binary Tree**: [[PHP]](./php/src/0104_maximum_depth_of_binary_tree.php)
