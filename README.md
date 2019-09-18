@@ -21,7 +21,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0098. Validate Binary Search Tree**: [[PHP]](./php/src/0098_validate_binary_search_tree.php) [[Python]](./python/solutions/s0098_validate_binary_search_tree.py)
 - **0101. Symmetric Tree**: [[PHP (recursively)]](./php/src/0101_symmetric_tree_recursively.php) [[PHP (iteratively)]](./php/src/0101_symmetric_tree_iteratively.php)
 - **0102. Binary Tree Level Order Traversal**: [[Python]](./python/solutions/s0102_Binary_Tree_Level_Order_Traversal.py) [[PHP]](./php/src/0102_binary_tree_level_order_traversal.php)
-- **0104. Maximum Depth of Binary Tree**: [[PHP]](./php/src/0104_maximum_depth_of_binary_tree.php)
+- **0104. Maximum Depth of Binary Tree**: [[Python]](./python/solutions/s0104_Maximum_Depth_of_Binary_Tree.py) [[PHP]](./php/src/0104_maximum_depth_of_binary_tree.php)
 - **0105. Construct Binary Tree from Preorder and Inorder Traversal**: [[PHP]](./php/src/0105_construct_binary_tree_from_preorder_and_inorder_traversal.php)
 - **0106. Construct Binary Tree from Inorder and Postorder Traversal**: [[PHP]](./php/src/0106_construct_binary_tree_from_inorder_and_postorder_traversal.php)
 - **0107. Binary Tree Level Order Traversal II**: [[PHP]](./php/src/0107_binary_tree_level_order_traversal_II.php)
