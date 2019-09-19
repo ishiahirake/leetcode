@@ -25,6 +25,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0105. Construct Binary Tree from Preorder and Inorder Traversal**: [[PHP]](./php/src/0105_construct_binary_tree_from_preorder_and_inorder_traversal.php)
 - **0106. Construct Binary Tree from Inorder and Postorder Traversal**: [[PHP]](./php/src/0106_construct_binary_tree_from_inorder_and_postorder_traversal.php)
 - **0107. Binary Tree Level Order Traversal II**: [[PHP]](./php/src/0107_binary_tree_level_order_traversal_II.php)
+- **0111. Minimum Depth of Binary Tree**: [[Python]](./python/solutions/s0111_Minimum_Depth_of_Binary_Tree.py)
 - **0112. Path Sum**: [[PHP]](./php/src/0112_path_sum.php)
 - **0116. Populating Next Right Pointers in Each Node**: [[PHP]](./php/src/0116_populating_next_right_pointers_in_each_node_a1.php)
 - **0117. Populating Next Right Pointers in Each Node II**: [[PHP]](./php/src/0117_populating_next_right_pointers_in_each_node_ii.php)
