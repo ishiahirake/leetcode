@@ -11,6 +11,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0018. 4Sum**: [[Python]](./python/solutions/s0018_4Sum.py)
 - **0020. Valid Parentheses**: [[Python]](./python/solutions/s0020_valid_parentheses.py)
 - **0021. Merge Two Sorted Lists**: [[PHP]](./php/src/0021_merge_two_sorted_lists.php)
+- **0022. Generate Parentheses.**: [[Python]](./python/solutions/s0022_Generate_Parentheses.py)
 - **0023. Merge k Sorted Lists**: [[PHP]](./php/src/0023_merge_k_sorted_lists.php)
 - **0024. Swap Nodes in Pairs**: [[PHP]](./php/src/0024_swap_nodes_in_pairs.php)
 - **0025. Reverse Nodes in k-Group**: [[PHP]](./php/src/0025_reverse_nodes_in_k_group.php) 
