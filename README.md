@@ -18,6 +18,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0025. Reverse Nodes in k Group**: [[PHP]](./php/src/0025_reverse_nodes_in_k_group.php)
 - **0050. Pow X N**: [[Python]](./python/solutions/s0050_Pow_x_n.py)
 - **0051. N Queens**: [[Python]](./python/solutions/s0051_N_Queens.py)
+- **0052. N Queens II**: [[Python]](./python/solutions/s0052_N_Queens_II.py)
 - **0053. Maximum Subarray**: [[Python]](./python/solutions/s0053_maximum_subarray.py)
 - **0088. Merge Sorted Array**: [[Python]](./python/solutions/s0088_merge_sorted_array.py)
 - **0094. Binary Tree Inorder Traversal**: [[PHP(Recursively)]](./php/src/0094_binary_tree_inorder_traversal_recursively.php) [[PHP(Iteratively)]](./php/src/0094_binary_tree_inorder_traversal_iteratively.php)
