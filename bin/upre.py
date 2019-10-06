@@ -4,6 +4,8 @@ import re
 from collections import namedtuple
 from glob import glob
 from os import path, linesep
+from difflib import SequenceMatcher
+from functools import reduce
 
 root_dir = path.dirname(path.dirname(path.realpath(__file__)))
 
@@ -47,7 +49,9 @@ def normalize_title(title: str) -> str:
         elif word in word_transforms.get("upper"):
             return word.upper()
         else:
-            return word.capitalize()
+            m = re.match(r'([\d]*)(\w+)', word)
+            fst, sec = ('', word) if not m else m.groups()
+            return fst + sec.capitalize()
 
     return ' '.join(map(transform_word, words))
 
@@ -84,17 +88,36 @@ def get_current_solutions() -> dict:
     return solutions
 
 
-def nsl(language: str) -> str:
-    return solution_languages.get(language)
+def find_longest_match(str1: str, str2: str) -> str:
+    s = SequenceMatcher(a=str1, b=str2)
+    m = s.find_longest_match(0, len(str1), 0, len(str2))
+    return '' if m.size == 0 else str1[m.a:m.a+m.size]
+
+
+def resolve_solution_title(solutions: [Solution]) -> str:
+    titles = list(map(lambda s: s.title, set(solutions)))
+    if len(titles) == 1:
+        return titles[0]
+    title = reduce(find_longest_match, titles).strip()
+    m = re.match(r'(.*)\s\w$', title)
+    return title if not m else m.group(1)
+
+
+def nsl(s: Solution, title: str) -> str:
+    language = solution_languages.get(s.language)
+    if s.title == title:
+        return language
+    tag = s.title.replace(title, '')
+    return f'{language}({tag.strip()})'
 
 
 def make_solution_line(solutions: [Solution]) -> str:
     solutions.sort(key=lambda s: solution_orders.index(s.language))
-    solution = solutions[0]
-    title_text = f"- **{solution.pid}. {solution.title}**:"
+    title = resolve_solution_title(solutions)
+    title_text = f"- **{solutions[0].pid}. {title}**:"
 
     solutions_text = ' '.join(
-        map(lambda s: f"[[{nsl(s.language)}]]({s.relative_path})", solutions))
+        map(lambda s: f"[[{nsl(s, title)}]]({s.relative_path})", solutions))
 
     return title_text + ' ' + solutions_text
 
@@ -102,7 +125,7 @@ def make_solution_line(solutions: [Solution]) -> str:
 def write_solutions(solutions: dict):
     content = ''
     with open(path.realpath(path.join(root_dir, 'README.tpl.md')), 'r') as tpl:
-        content = ''.join(tpl.readlines())
+        content = tpl.read()
 
     solution_lines = []
     for pid in sorted(solutions.keys()):
@@ -111,7 +134,7 @@ def write_solutions(solutions: dict):
     content = content.format_map(bindings)
 
     with open(path.realpath(path.join(root_dir, 'README.md')), 'w') as readme:
-        readme.writelines(content)
+        readme.write(content)
 
 
 write_solutions(get_current_solutions())

@@ -1,6 +1,6 @@
 .idea/
 *.iml
 
-
+.vscode/.ropeproject/
 /php/vendor/
 /**/__pycache__
