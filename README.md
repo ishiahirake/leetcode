@@ -17,6 +17,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0024. Swap Nodes in Pairs**: [[PHP]](./php/src/0024_swap_nodes_in_pairs.php)
 - **0025. Reverse Nodes in k Group**: [[PHP]](./php/src/0025_reverse_nodes_in_k_group.php)
 - **0036. Valid Sudoku**: [[Python]](./python/solutions/s0036_Valid_Sudoku.py)
+- **0037. Sudoku Solver**: [[Python]](./python/solutions/s0037_Sudoku_Solver.py)
 - **0050. Pow X N**: [[Python]](./python/solutions/s0050_Pow_x_n.py)
 - **0051. N Queens**: [[Python]](./python/solutions/s0051_N_Queens.py)
 - **0052. N Queens II**: [[Python]](./python/solutions/s0052_N_Queens_II.py)
