@@ -22,14 +22,25 @@ class Solution:
                 is_solved = True
                 return
             positions.sort(key=lambda i: len(i.digits))
-            position = positions.pop(0)
-            for digit in position.digits:
-                next_positions = deepcopy(positions)
-                self._place_at(board, next_positions,
-                               position.row, position.col, digit)
-                f(next_positions)
-                if is_solved:
-                    return
+            # Firstly, we can set the position which has only one possible digit.
+            for _ in range(len(positions)):
+                if len(positions[0].digits) != 1:
+                    break
+                position = positions.pop(0)
+                self._place_at(board, positions,
+                               position.row, position.col, next(iter(position.digits)))
+
+            if len(positions) == 0:
+                f(positions)
+            else:
+                position = positions.pop(0)
+                for digit in position.digits:
+                    next_positions = deepcopy(positions)
+                    self._place_at(board, next_positions,
+                                   position.row, position.col, digit)
+                    f(next_positions)
+                    if is_solved:
+                        return
 
         f(self._resolve_to_fill_positions(board))
 
