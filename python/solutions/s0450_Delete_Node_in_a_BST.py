@@ -8,7 +8,13 @@ from lib import TreeNode
 #         self.right = None
 
 class Solution:
+    """
+    450. Delete Node in a BST.
 
+    :see https://leetcode.com/problems/delete-node-in-a-bst/
+    """
+
+    # noinspection PyPep8Naming
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
         if root is None:
             return None
@@ -31,6 +37,8 @@ class Solution:
                 if parent:
                     parent.left = node.right
                 node.left = root.left
+                if root.right is not node:
+                    node.right = root.right
                 return node
 
     @staticmethod
