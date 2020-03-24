@@ -46,6 +46,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0173. Binary Search Tree Iterator**: [[PHP(A0)]](./php/src/0173_binary_search_tree_iterator_a0.php) [[PHP(A1)]](./php/src/0173_binary_search_tree_iterator_a1.php) [[JS]](./js/src/0173_binary_search_tree_iterator.js)
 - **0206. Reverse Linked List Iteratively**: [[PHP]](./php/src/0206_reverse_linked_list_iteratively.php)
 - **0208. Implement Trie Prefix Tree**: [[Python]](./python/solutions/s0208_Implement_Trie_Prefix_Tree.py)
+- **0212. Word Search II**: [[Python]](./python/solutions/s0212_Word_Search_II.py)
 - **0215. Kth Largest Element in an Array**: [[Python]](./python/solutions/s0215_kth_largest_element_in_an_array.py) [[PHP]](./php/src/0215_kth_largest_element_in_an_array.php)
 - **0225. Implement Stack Using Queues**: [[Python]](./python/solutions/s0225_implement_stack_using_queues.py)
 - **0232. Implement Queue Using Stacks**: [[Python]](./python/solutions/s0232_implement_queue_using_stacks.py)
