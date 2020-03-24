@@ -1,8 +1,4 @@
 from typing import List
-from collections import namedtuple
-
-Board = List[List[str]]
-Position = namedtuple("Position", ['x', 'y'])
 
 
 class Solution:
@@ -12,44 +8,47 @@ class Solution:
     :see ;https://leetcode.com/problems/word-search/
     """
 
-    def exist(self, board: Board, word: str) -> bool:
-        if not word:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        if not board or not word:
             return False
-        row_count, col_count = len(board), len(board[0])
 
-        for row in range(row_count):
-            for col in range(col_count):
-                if board[row][col] == word[0]:
-                    pos = Position(x=row, y=col)
-                    used_pos = set([pos])
-                    if self._backtace(board, pos, word[1:], used_pos):
-                        return True
+        row, col = len(board), len(board[0])
+        for ri in range(row):
+            for ci in range(col):
+                if self._dfs(board, ri, ci, '', word):
+                    return True
+
         return False
 
-    def _backtace(self, board: Board, pos: Position, word: str, used_pos: set) -> bool:
-        if not word:
+    def _dfs(self, board: List[List[str]], ri: int, ci: int, word: str, target: str) -> bool:
+        row, col = len(board), len(board[0])
+        if not self._is_between(ri, 0, row - 1) or not self._is_between(ci, 0, col - 1):
+            return False
+
+        char = board[ri][ci]
+        if char == '#':
+            return False
+
+        word = word + char
+        if not target.startswith(word):
+            return False
+
+        if word == target:
             return True
 
-        char = word[0]
-        for adjacent_position in self._get_adjacent_positions(board, pos, used_pos):
-            if board[adjacent_position.x][adjacent_position.y] == char \
-                    and adjacent_position not in used_pos:
-                used_pos.add(adjacent_position)
-                if self._backtace(board, adjacent_position, word[1:], used_pos):
-                    return True
-                else:
-                    used_pos.remove(adjacent_position)
+        board[ri][ci] = '#'
 
-        return False
+        is_found = False
+        if self._dfs(board, ri - 1, ci, word, target) \
+                or self._dfs(board, ri + 1, ci, word, target) \
+                or self._dfs(board, ri, ci - 1, word, target) \
+                or self._dfs(board, ri, ci + 1, word, target):
+            is_found = True
 
-    def _get_adjacent_positions(self, board: Board, pos: Position, used_pos: set) -> List[Position]:
-        result, xlimit, ylimit = [], len(board), len(board[0])
-        if pos.x - 1 >= 0:
-            result.append(Position(x=pos.x-1, y=pos.y))
-        if pos.y + 1 < ylimit:
-            result.append(Position(x=pos.x, y=pos.y+1))
-        if pos.x + 1 < xlimit:
-            result.append(Position(x=pos.x+1, y=pos.y))
-        if pos.y - 1 >= 0:
-            result.append(Position(x=pos.x, y=pos.y-1))
-        return result
+        board[ri][ci] = char
+
+        return is_found
+
+    @staticmethod
+    def _is_between(val, min_val, max_val) -> bool:
+        return min_val <= val <= max_val
