@@ -44,6 +44,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0145. Binary Tree Postorder Traversal**: [[PHP(Iteratively)]](./php/src/0145_binary_tree_postorder_traversal_iteratively.php) [[PHP(Recursively)]](./php/src/0145_binary_tree_postorder_traversal_recursively.php)
 - **0169. Majority Element**: [[Python]](./python/solutions/s0169_majority_element.py)
 - **0173. Binary Search Tree Iterator**: [[PHP(A0)]](./php/src/0173_binary_search_tree_iterator_a0.php) [[PHP(A1)]](./php/src/0173_binary_search_tree_iterator_a1.php) [[JS]](./js/src/0173_binary_search_tree_iterator.js)
+- **0191. Number of 1 Bits**: [[Python]](./python/solutions/s0191_Number_of_1_Bits.py)
 - **0206. Reverse Linked List Iteratively**: [[PHP]](./php/src/0206_reverse_linked_list_iteratively.php)
 - **0208. Implement Trie Prefix Tree**: [[Python]](./python/solutions/s0208_Implement_Trie_Prefix_Tree.py)
 - **0212. Word Search II**: [[Python]](./python/solutions/s0212_Word_Search_II.py)

@@ -2,10 +2,10 @@
 
 import re
 from collections import namedtuple
-from glob import glob
-from os import path, linesep
 from difflib import SequenceMatcher
 from functools import reduce
+from glob import glob
+from os import path, linesep
 
 root_dir = path.dirname(path.dirname(path.realpath(__file__)))
 
@@ -58,7 +58,7 @@ def normalize_title(title: str) -> str:
 
 def make_solution(filepath: str):
     filename = path.basename(filepath)
-    match = re.match(r'.*?(\d{1,4})[_]?([^\.]*)\.(.*)', filename)
+    match = re.match(r'.*?(\d{1,4})[_]?([^.]*)\.(.*)', filename)
     if not match:
         return None
     pid, title, suffix = match.groups()
@@ -123,7 +123,6 @@ def make_solution_line(solutions: [Solution]) -> str:
 
 
 def write_solutions(solutions: dict):
-    content = ''
     with open(path.realpath(path.join(root_dir, 'README.tpl.md')), 'r') as tpl:
         content = tpl.read()
 
