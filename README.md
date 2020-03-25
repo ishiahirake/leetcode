@@ -47,6 +47,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0191. Number of 1 Bits**: [[Python]](./python/solutions/s0191_Number_of_1_Bits.py)
 - **0206. Reverse Linked List Iteratively**: [[PHP]](./php/src/0206_reverse_linked_list_iteratively.php)
 - **0208. Implement Trie Prefix Tree**: [[Python]](./python/solutions/s0208_Implement_Trie_Prefix_Tree.py)
+- **0211. Add and Search Word Data Structure Design**: [[Python]](./python/solutions/s0211_Add_and_Search_Word_Data_structure_design.py)
 - **0212. Word Search II**: [[Python]](./python/solutions/s0212_Word_Search_II.py)
 - **0215. Kth Largest Element in an Array**: [[Python]](./python/solutions/s0215_kth_largest_element_in_an_array.py) [[PHP]](./php/src/0215_kth_largest_element_in_an_array.php)
 - **0225. Implement Stack Using Queues**: [[Python]](./python/solutions/s0225_implement_stack_using_queues.py)
