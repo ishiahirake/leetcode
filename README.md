@@ -51,6 +51,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0212. Word Search II**: [[Python]](./python/solutions/s0212_Word_Search_II.py)
 - **0215. Kth Largest Element in an Array**: [[Python]](./python/solutions/s0215_kth_largest_element_in_an_array.py) [[PHP]](./php/src/0215_kth_largest_element_in_an_array.php)
 - **0225. Implement Stack Using Queues**: [[Python]](./python/solutions/s0225_implement_stack_using_queues.py)
+- **0231. Power of Two**: [[Python]](./python/solutions/s0231_Power_of_Two.py)
 - **0232. Implement Queue Using Stacks**: [[Python]](./python/solutions/s0232_implement_queue_using_stacks.py)
 - **0235. Lowest Common Ancestor of a Binary Search Tree**: [[Python]](./python/solutions/s0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py)
 - **0236. Lowest Common Ancestor of a Binary Tree**: [[Python]](./python/solutions/s0236_Lowest_Common_Ancestor_of_a_Binary_Tree.py) [[PHP]](./php/src/0236_lowest_common_ancestor_of_a_binary_tree.php) [[JS(A0)]](./js/src/0236_lowest_common_ancestor_of_a_binary_tree_a0.js) [[JS(A1)]](./js/src/0236_lowest_common_ancestor_of_a_binary_tree_a1.js)
