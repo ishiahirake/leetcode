@@ -61,6 +61,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0264. Ugly Number II**: [[Python]](./python/solutions/s0264_ugly_number_II.py)
 - **0285. Inorder Successor in BST**: [[JS]](./js/src/0285_inorder_successor_in_BST.js)
 - **0297. Serialize and Deserialize Binary Tree**: [[PHP]](./php/src/0297_serialize_and_deserialize_binary_tree.php)
+- **0338. Counting Bits**: [[Python]](./python/solutions/s0338_Counting_Bits.py)
 - **0450. Delete Node in a BST**: [[Python]](./python/solutions/s0450_Delete_Node_in_a_BST.py)
 - **0700. Search in a Binary Search Tree**: [[PHP]](./php/src/0700_search_in_a_binary_search_tree.php)
 - **0701. Insert Into a Binary Search Tree**: [[PHP]](./php/src/0701_insert_into_a_binary_search_tree.php)
