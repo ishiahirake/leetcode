@@ -20,7 +20,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0037. Sudoku Solver**: [[Python]](./python/solutions/s0037_Sudoku_Solver.py)
 - **0050. Pow X N**: [[Python]](./python/solutions/s0050_Pow_x_n.py)
 - **0051. N Queens**: [[Python]](./python/solutions/s0051_N_Queens.py)
-- **0052. N Queens II**: [[Python]](./python/solutions/s0052_N_Queens_II.py)
+- **0052. N Queens II**: [[Python]](./python/solutions/s0052_N_Queens_II.py) [[Python(Bit)]](./python/solutions/s0052_N_Queens_II_bit.py)
 - **0053. Maximum Subarray**: [[Python]](./python/solutions/s0053_maximum_subarray.py)
 - **0069. Sqrt X**: [[Python]](./python/solutions/s0069_Sqrt_x.py)
 - **0079. Word Search**: [[Python]](./python/solutions/s0079_Word_Search.py)
@@ -68,6 +68,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0703. Kth Largest Element in a Stream**: [[Python]](./python/solutions/s0703_kth_largest_element_in_a_stream.py) [[PHP]](./php/src/0703_kth_largest_element_in_a_stream.php)
 - **0704. Binary Search**: [[PHP]](./php/src/0704_binary_search.php)
 - **0912. Sort an Array**: [[Python]](./python/solutions/s0912_sort_an_array.py) [[PHP]](./php/src/0912_sort_an_array.php)
+- **0929. Unique Email Addresses**: [[Python]](./python/solutions/s0929_Unique_Email_Addresses.py)
 - **0932. Beautiful Array**: [[Python]](./python/solutions/s0932_beautiful_array.py)
 
 ## Info
