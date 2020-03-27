@@ -42,6 +42,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0142. Linked List Cycle II**: [[JS]](./js/src/0142_linked_list_cycle_II.js)
 - **0144. Binary Tree Preorder Traversal**: [[Python]](./python/solutions/s0144_Binary_Tree_Preorder_Traversal.py) [[PHP(Iteratively)]](./php/src/0144_binary_tree_preorder_traversal_iteratively.php) [[PHP(Recursively)]](./php/src/0144_binary_tree_preorder_traversal_recursively.php)
 - **0145. Binary Tree Postorder Traversal**: [[PHP(Iteratively)]](./php/src/0145_binary_tree_postorder_traversal_iteratively.php) [[PHP(Recursively)]](./php/src/0145_binary_tree_postorder_traversal_recursively.php)
+- **0155. Min Stack**: [[Python]](./python/solutions/s0155_Min_Stack.py)
 - **0169. Majority Element**: [[Python]](./python/solutions/s0169_majority_element.py)
 - **0173. Binary Search Tree Iterator**: [[PHP(A0)]](./php/src/0173_binary_search_tree_iterator_a0.php) [[PHP(A1)]](./php/src/0173_binary_search_tree_iterator_a1.php) [[JS]](./js/src/0173_binary_search_tree_iterator.js)
 - **0191. Number of 1 Bits**: [[Python]](./python/solutions/s0191_Number_of_1_Bits.py)
