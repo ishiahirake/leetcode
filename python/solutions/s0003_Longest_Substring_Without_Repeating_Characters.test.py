@@ -15,6 +15,9 @@ class MyTestCase(unittest.TestCase):
     def test_e1(self):
         self.assertEqual(2, s.lengthOfLongestSubstring("aab"))
 
+    def test_e2(self):
+        self.assertEqual(2, s.lengthOfLongestSubstring("abba"))
+
 
 if __name__ == '__main__':
     unittest.main()

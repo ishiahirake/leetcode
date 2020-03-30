@@ -1,6 +1,3 @@
-from collections import Counter
-
-
 class Solution:
     """
     3. Longest Substring Without Repeating Characters
@@ -10,14 +7,11 @@ class Solution:
 
     def lengthOfLongestSubstring(self, s: str) -> int:
         max_len = li = 0
-        counter = Counter()
+        char_indexes = {}
         for hi, char in enumerate(s):
-            counter[char] += 1
-            while len(counter) != (hi - li + 1):
-                old_char = s[li]
-                counter[old_char] -= 1
-                if counter[old_char] == 0:
-                    del counter[old_char]
-                li += 1
-            max_len = max(max_len, len(counter))
+            ei = char_indexes.get(char)
+            if ei is not None and ei >= li:
+                li = char_indexes.get(char) + 1
+            char_indexes[char] = hi
+            max_len = max(max_len, hi - li + 1)
         return max_len
