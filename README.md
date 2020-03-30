@@ -5,6 +5,7 @@ Solutions for [leetcode](https://leetcode.com/).
 ## Solutions
 
 - **0001. Two Sum**: [[Python]](./python/solutions/s0001_two_sum.py)
+- **0003. Longest Substring Without Repeating Characters**: [[Python]](./python/solutions/s0003_Longest_Substring_Without_Repeating_Characters.py)
 - **0008. String to Integer (atoi)**: [[PHP]](./php/src/0008_string_to_integer_(atoi).php)
 - **0013. Roman to Integer**: [[PHP]](./php/src/0013_roman_to_integer.php)
 - **0015. 3Sum**: [[Python]](./python/solutions/s0015_3Sum.py)
