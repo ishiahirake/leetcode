@@ -39,6 +39,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0116. Populating Next Right Pointers in Each Node**: [[PHP(A0)]](./php/src/0116_populating_next_right_pointers_in_each_node_a0.php) [[PHP(A1)]](./php/src/0116_populating_next_right_pointers_in_each_node_a1.php)
 - **0117. Populating Next Right Pointers in Each Node II**: [[PHP]](./php/src/0117_populating_next_right_pointers_in_each_node_ii.php)
 - **0122. Best Time to Buy and Sell Stock II**: [[Python]](./python/solutions/s0122_Best_Time_to_Buy_and_Sell_Stock_II.py)
+- **0136. Single Number**: [[Python]](./python/solutions/s0136_Single_Number.py)
 - **0141. Linked List Cycle**: [[PHP]](./php/src/0141_linked_list_cycle.php) [[JS]](./js/src/0141_linked_list_cycle.js)
 - **0142. Linked List Cycle II**: [[JS]](./js/src/0142_linked_list_cycle_II.js)
 - **0144. Binary Tree Preorder Traversal**: [[Python]](./python/solutions/s0144_Binary_Tree_Preorder_Traversal.py) [[PHP(Iteratively)]](./php/src/0144_binary_tree_preorder_traversal_iteratively.php) [[PHP(Recursively)]](./php/src/0144_binary_tree_preorder_traversal_recursively.php)
