@@ -63,6 +63,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0242. Valid Anagram**: [[Python]](./python/solutions/s0242_valid_anagram.py)
 - **0250. Count Univalue Subtrees**: [[PHP]](./php/src/0250_count_univalue_subtrees.php)
 - **0264. Ugly Number II**: [[Python]](./python/solutions/s0264_ugly_number_II.py)
+- **0283. Move Zeroes**: [[Python]](./python/solutions/s0283_Move_Zeroes.py)
 - **0285. Inorder Successor in BST**: [[JS]](./js/src/0285_inorder_successor_in_BST.js)
 - **0297. Serialize and Deserialize Binary Tree**: [[PHP]](./php/src/0297_serialize_and_deserialize_binary_tree.php)
 - **0338. Counting Bits**: [[Python]](./python/solutions/s0338_Counting_Bits.py)
