@@ -74,6 +74,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0701. Insert Into a Binary Search Tree**: [[PHP]](./php/src/0701_insert_into_a_binary_search_tree.php)
 - **0703. Kth Largest Element in a Stream**: [[Python]](./python/solutions/s0703_kth_largest_element_in_a_stream.py) [[PHP]](./php/src/0703_kth_largest_element_in_a_stream.php)
 - **0704. Binary Search**: [[PHP]](./php/src/0704_binary_search.php)
+- **0844. Backspace String Compare**: [[Python]](./python/solutions/s0844_Backspace_String_Compare.py)
 - **0876. Middle of The Linked List**: [[Python]](./python/solutions/s0876_Middle_of_the_Linked_List.py)
 - **0904. Fruit Into Baskets**: [[Python]](./python/solutions/s0904_Fruit_Into_Baskets.py)
 - **0912. Sort an Array**: [[Python]](./python/solutions/s0912_sort_an_array.py) [[PHP]](./php/src/0912_sort_an_array.php)
