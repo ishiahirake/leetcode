@@ -81,6 +81,7 @@ Solutions for [leetcode](https://leetcode.com/).
 - **0912. Sort an Array**: [[Python]](./python/solutions/s0912_sort_an_array.py) [[PHP]](./php/src/0912_sort_an_array.php)
 - **0929. Unique Email Addresses**: [[Python]](./python/solutions/s0929_Unique_Email_Addresses.py)
 - **0932. Beautiful Array**: [[Python]](./python/solutions/s0932_beautiful_array.py)
+- **1046. Last Stone Weight**: [[Python]](./python/solutions/s1046_Last_Stone_Weight.py)
 
 ## Info
 
